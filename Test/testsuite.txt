@@ -1,0 +1,20 @@
+ls
+ls;ls
+ls && ls
+ls || ls
+ls | wc
+(ls ; ls) | wc
+./fail && (echo "hello")
+./fail || (echo "hello")
+./success && (echo "hello")
+./success || (echo "hello")
+ls > dump
+cat < dump
+cat dump
+( (ls ; ls) | wc ) > dump
+cd foo
+cd
+ls *.c
+ls foo/bar/*.a
+cat *.c
+(ls *.c) > dump
